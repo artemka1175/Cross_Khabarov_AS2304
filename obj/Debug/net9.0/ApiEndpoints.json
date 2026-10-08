@@ -1,0 +1,121 @@
+[
+  {
+    "ContainingType": "Khabarov_Artem_AS2304.Controllers.AuthController",
+    "Method": "GetToken",
+    "RelativePath": "api/Auth/get-token",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "role",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Khabarov_Artem_AS2304.Controllers.LabController",
+    "Method": "GetActiveExperimentsInfo",
+    "RelativePath": "api/Lab/active-experiments",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Khabarov_Artem_AS2304.Controllers.LabController",
+    "Method": "GetApparatuses",
+    "RelativePath": "api/Lab/apparatuses",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Khabarov_Artem_AS2304.Models.LabApparatus, Khabarov_Artem_AS2304, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Khabarov_Artem_AS2304.Controllers.LabController",
+    "Method": "CreateApparatus",
+    "RelativePath": "api/Lab/apparatuses",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "apparatus",
+        "Type": "Khabarov_Artem_AS2304.Models.LabApparatus",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Khabarov_Artem_AS2304.Models.LabApparatus",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Khabarov_Artem_AS2304.Controllers.LabController",
+    "Method": "DeleteApparatus",
+    "RelativePath": "api/Lab/apparatuses/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Khabarov_Artem_AS2304.Controllers.LabController",
+    "Method": "UpdateApparatus",
+    "RelativePath": "api/Lab/apparatuses/{id}/toggle-heater",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "heaterState",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Khabarov_Artem_AS2304.Controllers.LabController",
+    "Method": "GetSessionsSummary",
+    "RelativePath": "api/Lab/sessions-summary",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

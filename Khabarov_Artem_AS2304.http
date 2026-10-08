@@ -1,0 +1,27 @@
+@HostAddress = http://localhost:5065
+
+
+
+### 1. Получить токен Обычного пользователя (User)
+GET {{HostAddress}}/api/auth/get-token?role=User
+
+### 2. Получить токен Администратора (Admin)
+GET {{HostAddress}}/api/auth/get-token?role=Admin
+
+### 3. ОШИБКА 401 UNAUTHORIZED 
+# Пытаемся получить сводку без токена вообще. 
+# 401
+GET {{HostAddress}}/api/lab/sessions-summary
+
+### 4.Авторизованный доступ к отчетам
+GET {{HostAddress}}/api/lab/sessions-summary
+Authorization: Bearer ТВОЙ_ТОКЕН
+
+### 5. ОШИБКА 403 FORBIDDEN 
+#  403 
+DELETE {{HostAddress}}/api/lab/apparatuses/1
+Authorization: Bearer ТОКЕН_ОБЫЧНОГО_ЮЗЕРА
+
+### 6.Действие администратора
+DELETE {{HostAddress}}/api/lab/apparatuses/1
+Authorization: Bearer ТОКЕН_АДМИНА

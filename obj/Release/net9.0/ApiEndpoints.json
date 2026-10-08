@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "Khabarov_Artem_AS2304.Controllers.AuthController",
+    "Method": "GetToken",
+    "RelativePath": "api/Auth/get-token",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "role",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
