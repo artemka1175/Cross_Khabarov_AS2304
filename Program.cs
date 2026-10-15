@@ -7,7 +7,11 @@ using System.Text;
 
 var builder = WebApplication.CreateBuilder(args); //для веба
 
-builder.Services.AddControllers(); 
+builder.Services.AddControllers()
+    .AddJsonOptions(options =>
+ {
+     options.JsonSerializerOptions.ReferenceHandler = System.Text.Json.Serialization.ReferenceHandler.IgnoreCycles; // Циклическая ссылка
+ });
 var secretKey = "SuperSecretKeyARTEMKA1175WOAH67SIXSEVEEEEENUWUOWO"; // Ключ шифрования токена (32+)
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme) //аутентификация
     .AddJwtBearer(options =>
@@ -30,10 +34,35 @@ builder.Services.AddOpenApi();
 
 var app = builder.Build();
 
+
+using (var scope = app.Services.CreateScope())
+{
+    var db = scope.ServiceProvider.GetRequiredService<LabContext>();
+    db.Database.EnsureCreated();
+
+    if (!db.Reagents.Any())
+    {
+        // Добавляем реактивы для лабораторной по мылу
+        db.Reagents.AddRange(
+            new Reagents { Name = "Стеарат натрия (Мыло)", ChemicalFormula = "C17H35COONa", StateOfMatter = "Solid", HazardLevel = 1 },
+            new Reagents { Name = "Дистиллированная вода", ChemicalFormula = "H2O", StateOfMatter = "Liquid", HazardLevel = 0 }
+        );
+
+        // Добавляем лабораторную установку
+        db.LabApparatuses.Add(
+            new LabApparatus { ApparatusType = "Пробирка с горелкой", IsHeaterOn = false, CurrentTemperatureC = 20.0, VolumeMl = 3.0 }
+        );
+
+        db.SaveChanges();
+    }
+}
+
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
 }
+
+
 
 app.UseHttpsRedirection();
 

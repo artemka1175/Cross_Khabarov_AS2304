@@ -6,13 +6,11 @@ namespace Khabarov_Artem_AS2304.Data
 {
     public class LabContext : DbContext //БД
     {
-        public LabContext(DbContextOptions<LabContext> options) : base(options)
-        {
-
-        }
-
-        public DbSet<Petroleum> Petroleums { get; set; }
+        public LabContext(DbContextOptions<LabContext> options) : base(options){ }
+        public DbSet<Reagents> Reagents { get; set; }
         public DbSet<LabApparatus> LabApparatuses { get; set; }
         public DbSet<LabSession> LabSessions { get; set; }
+        public DbSet<LabSteps> LabSteps { get; set; }
     }
+
 }
