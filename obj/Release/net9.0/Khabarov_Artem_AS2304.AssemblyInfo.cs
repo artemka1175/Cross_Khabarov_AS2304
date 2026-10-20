@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Khabarov_Artem_AS2304")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f4d5b01a00a2dc82b1e9ad33d2100b98c9091df7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6fee63bbced6d1aae9d1fa5ed35ca7cfc68ceffa")]
 [assembly: System.Reflection.AssemblyProductAttribute("Khabarov_Artem_AS2304")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Khabarov_Artem_AS2304")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

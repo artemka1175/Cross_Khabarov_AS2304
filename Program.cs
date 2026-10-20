@@ -28,34 +28,13 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme) //аут
 builder.Services.AddAuthorization();
 
 builder.Services.AddDbContext<LabContext>(options =>
-    options.UseInMemoryDatabase("LabVirtualDb")); // потом поменяю, здесь должна быть БД
+    options.UseSqlite("Data Source=chemistry_lab.db"));
 
 builder.Services.AddOpenApi();
 
 var app = builder.Build();
 
 
-using (var scope = app.Services.CreateScope())
-{
-    var db = scope.ServiceProvider.GetRequiredService<LabContext>();
-    db.Database.EnsureCreated();
-
-    if (!db.Reagents.Any())
-    {
-        // Добавляем реактивы для лабораторной по мылу
-        db.Reagents.AddRange(
-            new Reagents { Name = "Стеарат натрия (Мыло)", ChemicalFormula = "C17H35COONa", StateOfMatter = "Solid", HazardLevel = 1 },
-            new Reagents { Name = "Дистиллированная вода", ChemicalFormula = "H2O", StateOfMatter = "Liquid", HazardLevel = 0 }
-        );
-
-        // Добавляем лабораторную установку
-        db.LabApparatuses.Add(
-            new LabApparatus { ApparatusType = "Пробирка с горелкой", IsHeaterOn = false, CurrentTemperatureC = 20.0, VolumeMl = 3.0 }
-        );
-
-        db.SaveChanges();
-    }
-}
 
 if (app.Environment.IsDevelopment())
 {

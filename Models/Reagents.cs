@@ -11,7 +11,7 @@ namespace Khabarov_Artem_AS2304.Models
         public string Name { get; set; } = string.Empty; // "Стеарат натрия (Мыло)", "Дистиллированная вода"
         public string ChemicalFormula { get; set; } = string.Empty; // "C17H35COONa"
         public string StateOfMatter { get; set; } = string.Empty; // "Solid", "Liquid"
-        public int HazardLevel { get; set; } = 1; // Класс опасности
+        public int HazardLevel { get; set; } = 0; // Класс опасности
 
     }
 }

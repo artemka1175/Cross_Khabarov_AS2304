@@ -17,6 +17,22 @@
   },
   {
     "ContainingType": "Khabarov_Artem_AS2304.Controllers.LabController",
+    "Method": "AddApparatus",
+    "RelativePath": "api/Lab/apparatus",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "apparatus",
+        "Type": "Khabarov_Artem_AS2304.Models.LabApparatus",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Khabarov_Artem_AS2304.Controllers.LabController",
     "Method": "GetApparatuses",
     "RelativePath": "api/Lab/apparatuses",
     "HttpMethod": "GET",
@@ -36,9 +52,9 @@
     ]
   },
   {
-    "ContainingType": "Khabarov_Artem_AS2304.Controllers.LabController",
+    "ContainingType": "Khabarov_Artem_AS2304.Controllers.ReagentsController",
     "Method": "GetReagents",
-    "RelativePath": "api/Lab/reagents",
+    "RelativePath": "api/Reagents",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -56,9 +72,92 @@
     ]
   },
   {
-    "ContainingType": "Khabarov_Artem_AS2304.Controllers.LabController",
-    "Method": "PerformSoapExperimentStep",
-    "RelativePath": "api/Lab/sessions/{sessionId}/perform-step",
+    "ContainingType": "Khabarov_Artem_AS2304.Controllers.ReagentsController",
+    "Method": "AddReagent",
+    "RelativePath": "api/Reagents",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "reagent",
+        "Type": "Khabarov_Artem_AS2304.Models.Reagents",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Khabarov_Artem_AS2304.Controllers.SessionsController",
+    "Method": "GetSessions",
+    "RelativePath": "api/Sessions",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Khabarov_Artem_AS2304.Models.LabSession, Khabarov_Artem_AS2304, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Khabarov_Artem_AS2304.Controllers.SessionsController",
+    "Method": "FinishSession",
+    "RelativePath": "api/Sessions/{sessionId}/finish",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sessionId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Khabarov_Artem_AS2304.Controllers.SessionsController",
+    "Method": "GetLabAnalytics",
+    "RelativePath": "api/Sessions/analytics",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Khabarov_Artem_AS2304.Controllers.SessionsController",
+    "Method": "StartSession",
+    "RelativePath": "api/Sessions/start",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "studentName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "experimentTitle",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Khabarov_Artem_AS2304.Controllers.StepsController",
+    "Method": "PerformStep",
+    "RelativePath": "api/Steps/session/{sessionId}/perform",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -69,9 +168,9 @@
         "IsRequired": true
       },
       {
-        "Name": "turnOnHeater",
-        "Type": "System.Boolean",
-        "IsRequired": false
+        "Name": "incomingStep",
+        "Type": "Khabarov_Artem_AS2304.Models.LabSteps",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []

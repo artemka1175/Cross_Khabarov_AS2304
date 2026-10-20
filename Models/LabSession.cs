@@ -14,7 +14,7 @@ namespace Khabarov_Artem_AS2304.Models
         public string StudentName { get; set; } = string.Empty; // ФИО студента
 
         [Required]
-        public string ExperimentTitle { get; set; } = "Опыт 1. Растворение мыла в воде";
+        public string ExperimentTitle { get; set; } = string.Empty;
 
         public DateTime StartedAt { get; set; } = DateTime.Now;
 

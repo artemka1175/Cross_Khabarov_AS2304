@@ -15,7 +15,9 @@ namespace Khabarov_Artem_AS2304.Models
         public LabSession? LabSession { get; set; }
 
         [Required]
-        public string ActionDescription { get; set; } = string.Empty; // Что сделал: "Добавил 20г мыла и 3 мл воды в пробирку"
+        public string ActionCode { get; set; } = string.Empty; // Код действия
+
+        public string ReactionFormula { get; set; } = string.Empty; // Химическая формула процесса
 
         public DateTime RecordedAt { get; set; } = DateTime.Now;
 

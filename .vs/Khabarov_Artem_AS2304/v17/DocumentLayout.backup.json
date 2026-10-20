@@ -3,36 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Documents\\GitHub\\Khabarov_Artem_AS2304\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D9456E2B-6611-490C-A9BA-8030A40FB577}|Khabarov_Artem_AS2304.csproj|c:\\users\\user\\documents\\github\\khabarov_artem_as2304\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9456E2B-6611-490C-A9BA-8030A40FB577}|Khabarov_Artem_AS2304.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D9456E2B-6611-490C-A9BA-8030A40FB577}|Khabarov_Artem_AS2304.csproj|c:\\users\\user\\documents\\github\\khabarov_artem_as2304\\controllers\\sessionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9456E2B-6611-490C-A9BA-8030A40FB577}|Khabarov_Artem_AS2304.csproj|solutionrelative:controllers\\sessionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D9456E2B-6611-490C-A9BA-8030A40FB577}|Khabarov_Artem_AS2304.csproj|c:\\users\\user\\documents\\github\\khabarov_artem_as2304\\controllers\\labcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D9456E2B-6611-490C-A9BA-8030A40FB577}|Khabarov_Artem_AS2304.csproj|solutionrelative:controllers\\labcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{D9456E2B-6611-490C-A9BA-8030A40FB577}|Khabarov_Artem_AS2304.csproj|c:\\users\\user\\documents\\github\\khabarov_artem_as2304\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9456E2B-6611-490C-A9BA-8030A40FB577}|Khabarov_Artem_AS2304.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9456E2B-6611-490C-A9BA-8030A40FB577}|Khabarov_Artem_AS2304.csproj|c:\\users\\user\\documents\\github\\khabarov_artem_as2304\\controllers\\stepscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9456E2B-6611-490C-A9BA-8030A40FB577}|Khabarov_Artem_AS2304.csproj|solutionrelative:controllers\\stepscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9456E2B-6611-490C-A9BA-8030A40FB577}|Khabarov_Artem_AS2304.csproj|c:\\users\\user\\documents\\github\\khabarov_artem_as2304\\controllers\\reagentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9456E2B-6611-490C-A9BA-8030A40FB577}|Khabarov_Artem_AS2304.csproj|solutionrelative:controllers\\reagentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D9456E2B-6611-490C-A9BA-8030A40FB577}|Khabarov_Artem_AS2304.csproj|c:\\users\\user\\documents\\github\\khabarov_artem_as2304\\data\\labcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D9456E2B-6611-490C-A9BA-8030A40FB577}|Khabarov_Artem_AS2304.csproj|solutionrelative:data\\labcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D9456E2B-6611-490C-A9BA-8030A40FB577}|Khabarov_Artem_AS2304.csproj|c:\\users\\user\\documents\\github\\khabarov_artem_as2304\\models\\labapparatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9456E2B-6611-490C-A9BA-8030A40FB577}|Khabarov_Artem_AS2304.csproj|solutionrelative:models\\labapparatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D9456E2B-6611-490C-A9BA-8030A40FB577}|Khabarov_Artem_AS2304.csproj|c:\\users\\user\\documents\\github\\khabarov_artem_as2304\\models\\labsteps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9456E2B-6611-490C-A9BA-8030A40FB577}|Khabarov_Artem_AS2304.csproj|solutionrelative:models\\labsteps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D9456E2B-6611-490C-A9BA-8030A40FB577}|Khabarov_Artem_AS2304.csproj|c:\\users\\user\\documents\\github\\khabarov_artem_as2304\\models\\reagents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D9456E2B-6611-490C-A9BA-8030A40FB577}|Khabarov_Artem_AS2304.csproj|solutionrelative:models\\reagents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9456E2B-6611-490C-A9BA-8030A40FB577}|Khabarov_Artem_AS2304.csproj|c:\\users\\user\\documents\\github\\khabarov_artem_as2304\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9456E2B-6611-490C-A9BA-8030A40FB577}|Khabarov_Artem_AS2304.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D9456E2B-6611-490C-A9BA-8030A40FB577}|Khabarov_Artem_AS2304.csproj|c:\\users\\user\\documents\\github\\khabarov_artem_as2304\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9456E2B-6611-490C-A9BA-8030A40FB577}|Khabarov_Artem_AS2304.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D9456E2B-6611-490C-A9BA-8030A40FB577}|Khabarov_Artem_AS2304.csproj|c:\\users\\user\\documents\\github\\khabarov_artem_as2304\\models\\labsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D9456E2B-6611-490C-A9BA-8030A40FB577}|Khabarov_Artem_AS2304.csproj|solutionrelative:models\\labsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9456E2B-6611-490C-A9BA-8030A40FB577}|Khabarov_Artem_AS2304.csproj|c:\\users\\user\\documents\\github\\khabarov_artem_as2304\\models\\labsteps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9456E2B-6611-490C-A9BA-8030A40FB577}|Khabarov_Artem_AS2304.csproj|solutionrelative:models\\labsteps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9456E2B-6611-490C-A9BA-8030A40FB577}|Khabarov_Artem_AS2304.csproj|c:\\users\\user\\documents\\github\\khabarov_artem_as2304\\models\\labapparatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9456E2B-6611-490C-A9BA-8030A40FB577}|Khabarov_Artem_AS2304.csproj|solutionrelative:models\\labapparatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D9456E2B-6611-490C-A9BA-8030A40FB577}|Khabarov_Artem_AS2304.csproj|c:\\users\\user\\documents\\github\\khabarov_artem_as2304\\khabarov_artem_as2304.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
@@ -70,17 +82,16 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "LabSession.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Khabarov_Artem_AS2304\\Models\\LabSession.cs",
               "RelativeDocumentMoniker": "Models\\LabSession.cs",
               "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Khabarov_Artem_AS2304\\Models\\LabSession.cs",
               "RelativeToolTip": "Models\\LabSession.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBQAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-04T09:49:38.789Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -92,11 +103,28 @@
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SessionsController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Khabarov_Artem_AS2304\\Controllers\\SessionsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SessionsController.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Khabarov_Artem_AS2304\\Controllers\\SessionsController.cs",
+              "RelativeToolTip": "Controllers\\SessionsController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAA1wBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-19T09:45:40.84Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -106,92 +134,113 @@
               "RelativeDocumentMoniker": "Controllers\\LabController.cs",
               "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Khabarov_Artem_AS2304\\Controllers\\LabController.cs",
               "RelativeToolTip": "Controllers\\LabController.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAkwCcAAABEAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-04T09:30:51.536Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Khabarov_Artem_AS2304\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Khabarov_Artem_AS2304\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAwAwAAACJAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "StepsController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Khabarov_Artem_AS2304\\Controllers\\StepsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StepsController.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Khabarov_Artem_AS2304\\Controllers\\StepsController.cs",
+              "RelativeToolTip": "Controllers\\StepsController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-04T09:29:00.226Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Reagents.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Khabarov_Artem_AS2304\\Models\\Reagents.cs",
-              "RelativeDocumentMoniker": "Models\\Reagents.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Khabarov_Artem_AS2304\\Models\\Reagents.cs",
-              "RelativeToolTip": "Models\\Reagents.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-04T09:37:03.981Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LabContext.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Khabarov_Artem_AS2304\\Data\\LabContext.cs",
-              "RelativeDocumentMoniker": "Data\\LabContext.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Khabarov_Artem_AS2304\\Data\\LabContext.cs",
-              "RelativeToolTip": "Data\\LabContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-04T10:05:08.103Z",
+              "WhenOpened": "2026-10-19T09:46:19.919Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "LabSteps.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Khabarov_Artem_AS2304\\Models\\LabSteps.cs",
-              "RelativeDocumentMoniker": "Models\\LabSteps.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Khabarov_Artem_AS2304\\Models\\LabSteps.cs",
-              "RelativeToolTip": "Models\\LabSteps.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBcAAACDAAAAAAAAAA==",
+              "Title": "ReagentsController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Khabarov_Artem_AS2304\\Controllers\\ReagentsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ReagentsController.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Khabarov_Artem_AS2304\\Controllers\\ReagentsController.cs",
+              "RelativeToolTip": "Controllers\\ReagentsController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-14T07:24:18.915Z",
+              "WhenOpened": "2026-10-20T09:46:23.859Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LabApparatus.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Khabarov_Artem_AS2304\\Models\\LabApparatus.cs",
-              "RelativeDocumentMoniker": "Models\\LabApparatus.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Khabarov_Artem_AS2304\\Models\\LabApparatus.cs",
-              "RelativeToolTip": "Models\\LabApparatus.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAxAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "LabContext.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Khabarov_Artem_AS2304\\Data\\LabContext.cs",
+              "RelativeDocumentMoniker": "Data\\LabContext.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Khabarov_Artem_AS2304\\Data\\LabContext.cs",
+              "RelativeToolTip": "Data\\LabContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABrAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-04T09:45:41.194Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-04T10:05:08.103Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Khabarov_Artem_AS2304\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
               "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Khabarov_Artem_AS2304\\Controllers\\AuthController.cs",
               "RelativeToolTip": "Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABeAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAABeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-04T10:52:33.243Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
+              "Title": "LabSteps.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Khabarov_Artem_AS2304\\Models\\LabSteps.cs",
+              "RelativeDocumentMoniker": "Models\\LabSteps.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Khabarov_Artem_AS2304\\Models\\LabSteps.cs",
+              "RelativeToolTip": "Models\\LabSteps.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBEAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T07:24:18.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Khabarov_Artem_AS2304\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Khabarov_Artem_AS2304\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-04T09:29:00.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Reagents.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Khabarov_Artem_AS2304\\Models\\Reagents.cs",
+              "RelativeDocumentMoniker": "Models\\Reagents.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Khabarov_Artem_AS2304\\Models\\Reagents.cs",
+              "RelativeToolTip": "Models\\Reagents.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-04T09:37:03.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LabApparatus.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Khabarov_Artem_AS2304\\Models\\LabApparatus.cs",
+              "RelativeDocumentMoniker": "Models\\LabApparatus.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Khabarov_Artem_AS2304\\Models\\LabApparatus.cs",
+              "RelativeToolTip": "Models\\LabApparatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-04T09:45:41.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Khabarov_Artem_AS2304.http",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Khabarov_Artem_AS2304\\Khabarov_Artem_AS2304.http",
               "RelativeDocumentMoniker": "Khabarov_Artem_AS2304.http",
@@ -203,7 +252,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Khabarov_Artem_AS2304\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
@@ -215,7 +264,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "FolderProfile.pubxml",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Khabarov_Artem_AS2304\\Properties\\PublishProfiles\\FolderProfile.pubxml",
               "RelativeDocumentMoniker": "Properties\\PublishProfiles\\FolderProfile.pubxml",
@@ -227,7 +276,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "Khabarov_Artem_AS2304.csproj",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Khabarov_Artem_AS2304\\Khabarov_Artem_AS2304.csproj",
               "RelativeDocumentMoniker": "Khabarov_Artem_AS2304.csproj",
@@ -239,7 +288,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Khabarov_Artem_AS2304\\appsettings.Development.json",
               "RelativeDocumentMoniker": "appsettings.Development.json",
@@ -251,7 +300,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Khabarov_Artem_AS2304\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",

@@ -6,7 +6,7 @@ namespace Khabarov_Artem_AS2304.Data
 {
     public class LabContext : DbContext //БД
     {
-        public LabContext(DbContextOptions<LabContext> options) : base(options){ }
+        public LabContext(DbContextOptions<LabContext> options) : base(options){ Database.EnsureCreated(); }
         public DbSet<Reagents> Reagents { get; set; }
         public DbSet<LabApparatus> LabApparatuses { get; set; }
         public DbSet<LabSession> LabSessions { get; set; }

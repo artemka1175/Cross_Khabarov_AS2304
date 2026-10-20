@@ -9,9 +9,9 @@ namespace Khabarov_Artem_AS2304.Models
         [Key]
         public int Id { get; set; }
         [Required]
-        public string ApparatusType { get; set; } = "Пробирка с горелкой"; // Тип оборудования
+        public string ApparatusType { get; set; } = string.Empty; // Тип оборудования
         public bool IsHeaterOn { get; set; } = false; // Нагрев включен/выключен
-        public double CurrentTemperatureC { get; set; } = 20.0; // Температура содержимого 
+        public double CurrentTemperatureC { get; set; } = 0.0; // Температура содержимого 
         public double VolumeMl { get; set; } = 0.0; // Общий объем смеси в пробирке
         public int? LoadedReagentId { get; set; }
 
@@ -22,7 +22,7 @@ namespace Khabarov_Artem_AS2304.Models
             IsHeaterOn = state;
             if (IsHeaterOn)
             {
-                CurrentTemperatureC += 35.0; // Имитация нагрева пламенем горелки
+                CurrentTemperatureC += 25.0; // Имитация нагрева пламенем горелки
             }
         }
     }
